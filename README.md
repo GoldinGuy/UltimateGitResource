@@ -1,12 +1,12 @@
 # UltimateGitResource
-📗 A list of helpful Git commands for the Google DSC Git Event
+📚 A list of helpful Git commands for the Google DSC Git Event
 
 Git is the most popular version control system. It tracks changes you make to files and keeps a record of your work. It also lets you revert to earlier versions of your code if the need arises. Git also drastically improves collaboration, allowing multiple people to work in sync on the same source code. Below is a selection of the most helpful and commonly used Git commands to power up your programming!
 
 *Note - Wherever used the shorthand `Repo` means [Repository](https://en.wikipedia.org/wiki/Repository_(version_control))*
 
 
-### 📘 Gitting Existing Projects
+### 📗 Gitting Existing Projects
 
 | Command | Description |
 | ------- | ----------- |
@@ -16,7 +16,7 @@ Git is the most popular version control system. It tracks changes you make to fi
 You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos or *create a copy of the original repo that remains on your GitHub account*.
 
 
-### 📙 Gitting Started - Setting Up A New Repository
+### 📘 Gitting Started - Setting Up A New Repository
 
 | Command | Description |
 | ------- | ----------- |
@@ -29,7 +29,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git push -u origin master` | Push your changes to remote repository |
 
 
-### 📒 The Nitty Gitty - Status & Inspection
+### 📙 The Nitty Gitty - Status & Inspection
 
 | Command | Description |
 | ------- | ----------- |
@@ -40,7 +40,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
 
-### 📕 Branching Out
+### 📒 Branching Out
 
 | Command | Description |
 | ------- | ----------- |
@@ -57,7 +57,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git checkout -- [file-name.txt]` | Revert your recent changes to a file |
 
 
-### 📔 Git Gud - Dealing With Merge Conflicts
+### 📕 Git Gud - Dealing With Merge Conflicts
 
 | Command | Description |
 | ------- | ----------- |
@@ -78,7 +78,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git pull` | Synchronize local repo with remote repo |
 | `git pull origin [branch name]` | Pull changes from remote repo |
 
-#### Alternative Remote Origin Commands
+#### 📔 Alternative Remote Origin Commands
 
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add upstream repo to publish commits at (the remote repo) |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repo's origin branch to SSH |
