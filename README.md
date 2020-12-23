@@ -33,7 +33,7 @@ concept guides. `git help <command>` or `git help <concept>` allows you to read 
 | `git clone ssh://git@github.com/<username>/<repository-name>.git` | Create a local copy of a remote repo using SSH |
 | `git clone https://github.com/<username>/<repository-name>.git` | Create a local copy of a remote repo using HTTPS |
 
-You can also <fork>(https://github.com/GoldinGuy/UltimateGitResource/fork) repos *(create a copy of the original repo that remains on your GitHub account)*.
+You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos *(create a copy of the original repo that remains on your GitHub account)*.
 
 
 ### 📘 Gitting Started - Setting Up a New Repo
