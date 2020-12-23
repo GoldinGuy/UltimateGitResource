@@ -13,7 +13,7 @@ Git is the most popular version control system. It tracks changes you make to fi
 - [The Nitty Gitty - Examine History & State](#-the-nitty-gitty---examine-history--state)
 - [Branching Out - Grow, Mark & Tweak History](#-branching-out---grow-mark--tweak-history)
 - [Git Gud - Dealing With Merge Conflicts](#-git-gud---dealing-with-merge-conflicts)
-- [Git You More - Detailed Pushing, Pulling, & Remote Origin](#-git-you-more---detailed-pushing-pulling--alternative-remote-origin)
+- [Git More - Detailed Pushing, Pulling, & Remote Origin](#-git-more---detailed-pushing-pulling--alternative-remote-origin)
 - [Gitting Complicated - Rebase, Cherry-Pick, & Clean](#-gitting-complicated---rebase-cherry-pick---clean)
 - [Git Resources](#-more-git-resources)
 - [Contributing](#contributing)
@@ -23,8 +23,7 @@ Git is the most popular version control system. It tracks changes you make to fi
 You can run `git help` in the terminal to learn about many of these commands at any time. `git help -a` and `git help -g` list available subcommands and 
 concept guides. `git help <command>` or `git help <concept>` allows you to read about a specific subcommand or concept.
 
-`HEAD` - represents your current working directory. The `HEAD` pointer can be moved to different branches, tags, or commits using `git checkout`.
-`remote` - the repository you synch
+`HEAD` represents your current working directory. The `HEAD` pointer can be moved to different branches, tags, or commits using `git checkout`.
 
 
 ### 📗 Gitting Existing Projects
@@ -94,7 +93,7 @@ You can also <fork>(https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git stash clear` | Remove all stashed entries |
 
 
-### 📓 Git You More - Detailed Pushing, Pulling, & Remote Origin
+### 📓 Git More - Detailed Pushing, Pulling, & Remote Origin
 
 | Command | Description |
 | ------- | ----------- |
