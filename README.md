@@ -124,6 +124,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git rebase` |  Reapply commits on top of another base tip |
 | `git cherry-pick` | Apply the changes introduced by some existing commits |
 | `git clean` | Removes untracked files from the working tree |
+| `git clean -fd` | Remove all untracked directories |
 | `git commit --amend` | Allows you to edit a previous commit that has not been pushed |
 | `git reset <commit>` | Reverts all commits after specified commit, while keeping local changes |
 | `git reset --hard <commit>` | Reverts all history and changes back to the given commit |
