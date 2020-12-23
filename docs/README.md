@@ -8,13 +8,6 @@ The quickest way to edit the site is to `Ctrl-F` for the default person "Alex B.
 
 You can change the font to anything you like from [Google Fonts](https://fonts.google.com/) by replacing the name of the font in the HTML link.
 
-If you know what you're doing, to switch to the advanced version of tailwind do the following:
-
-- Move the files in the `tailwind_adv` folder into the /docs directory
-- Run `npm install`
-- Remove the `Tailwind CDN styles link` in the `index.html` file, and uncomment the code in `css/styles.css`
-- Run `npm serve` to try out the site!
-
-It will look exactly the same as it currently does, so the only change will be a marginal decrease in load time. For the purposes of this lab, the CDN link will work just fine.
+You can also use any of the [TailwindCSS](https://v1.tailwindcss.com/) classes to edit your styling.
 
 This template is based on an open-source portfolio site found [here](https://github.com/mohusman360/mohusman360.github.io)
