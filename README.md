@@ -23,6 +23,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 
 
 #### Adding Files
+| Command | Description |
 | ------- | ----------- |
 | `git add [file-name.txt]` | Add a single file to the staging area |
 | `git rm -r [file-name.txt]` | Remove a single file (or folder) |
@@ -30,11 +31,13 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 
 
 #### Commiting 
+| Command | Description |
 | ------- | ----------- |
 | `git commit -m "[commit message]"` | Commit your changes |
 
 
 #### Adding Remote Origin 
+| Command | Description |
 | ------- | ----------- |
 | `git remote add origin git@github.com:[username]/[repository-name].git` | Add upstream repo to publish commits at (the remote repo) |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add upstream repo to publish commits at (the remote repo) |
@@ -42,6 +45,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 
 
 #### Pushing
+| Command | Description |
 | ------- | ----------- |
 | `git push -u origin master` | Push your changes to remote repository |
 
