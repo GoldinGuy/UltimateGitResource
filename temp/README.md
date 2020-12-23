@@ -1,3 +1,0 @@
-# GENERIC README
-
-EDIT ME!
