@@ -5,6 +5,23 @@ Git is the most popular version control system. It tracks changes you make to fi
 
 *Note - Wherever used the shorthand `Repo` means [Repository](https://en.wikipedia.org/wiki/Repository_(version_control))*
 
+## Table of Contents
+
+- [Installing Git](#installing--git)
+- [Gitting Existing Projects](#existing--repos)
+- [Gitting Started - Setting Up a New Repo](#new--repo)
+- [The Nitty Gitty - Examine History & State](#history--status)
+- [Branching Out - Grow, Mark & Tweak History](#branches)
+- [Git Gud - Dealing With Merge Conflicts](#merge--stash)
+- [Git You More - Detailed Pushing, Pulling, & Remote Origin](#push--pull)
+- [Gitting Complicated - Rebase, Cherry-Pick, & Clean](#rebase--cherry)
+- [Git Resources](#resources)
+- [Contributing](#contributing)
+
+## Git Commands
+
+You can run `git help` in the terminal to learn about many of these commands at any time. `git help -a` and `git help -g` list available subcommands and 
+concept guides. `git help <command>` or `git help <concept>` allows you to read about a specific subcommand or concept.
 
 ### 📗 Gitting Existing Projects
 
@@ -16,7 +33,7 @@ Git is the most popular version control system. It tracks changes you make to fi
 You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos or *create a copy of the original repo that remains on your GitHub account*.
 
 
-### 📘 Gitting Started - Setting Up A New Repository
+### 📘 Gitting Started - Setting Up a New Repo
 
 | Command | Description |
 | ------- | ----------- |
@@ -35,7 +52,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git add -A` | Add all files in all directories to the staging area |
 
 
-### 📙 The Nitty Gitty - Status & Inspection
+### 📙 The Nitty Gitty - Examine History & State
 
 | Command | Description |
 | ------- | ----------- |
@@ -46,7 +63,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
 
-### 📒 Branching Out
+### 📒 Branching Out - Grow, Mark & Tweak History
 
 | Command | Description |
 | ------- | ----------- |
@@ -73,7 +90,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git stash clear` | Remove all stashed entries |
 
 
-### 📓 Git You More - Detailed Pushing & Pulling
+### 📓 Git You More - Detailed Pushing, Pulling, & Alternative Remote Origin
 
 | Command | Description |
 | ------- | ----------- |
@@ -83,11 +100,33 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Synchronize local repo with remote repo |
 | `git pull origin [branch name]` | Pull changes from remote repo |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add upstream repo to publish commits at (the remote repo) |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repo's origin branch to SSH |
 
-#### 📔 Alternative Remote Origin Commands
 
+### 📔 Gitting Complicated
 
 | Command | Description |
 | ------- | ----------- |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add upstream repo to publish commits at (the remote repo) |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repo's origin branch to SSH |
+
+
+
+### 📖 More Git Resources
+- [Git Docs](https://git-scm.com/doc), for those who want to dive deep into the documentation
+- [Visual Git CheatSheet](https://ndpsoftware.com/git-cheatsheet.html), for those who are visual learners
+- [Official Printable PDF CheatSheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf), for those who need the physcial copy
+- [Git Markdown Emoji](https://github.com/ikatyang/emoji-cheat-sheet), to spice up your Git repos
+- [Article on Writing Good Commit Messages](https://chris.beams.io/posts/git-commit/), which pretty much everyone could stand to improve
+
+
+### Contributing
+
+1. Fork UltimateGitResource [here](https://github.com/GoldinGuy/UltimateGitResource/fork)
+2. Create a branch with your improvements (`git checkout -b improvement/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin improvement/fooBar`)
+5. Create a new Pull Request
+
+#### Meta
+
+Created by [@GoldinGuy](https://github.com/GoldinGuy) for the FAU Google DSC Git Event.
