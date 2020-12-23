@@ -21,12 +21,18 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
-| `git add [file-name.txt]` | Add a single file to the staging area |
-| `git rm -r [file-name.txt]` | Remove a single file (or folder) |
-| `git add -A` | Add all new and changed files to the staging area |
+| `git add .` | Add all files in the working directory to the staging area |
 | `git commit -m "[commit message]"` | Commit your changes |
 | `git remote add origin git@github.com:[username]/[repository-name].git` | Add upstream repo to publish commits at (the remote repo) |
 | `git push -u origin master` | Push your changes to remote repository |
+
+#### Adding Files - More Options
+
+| Command | Description |
+| ------- | ----------- |
+| `git add [file-name.txt]` | Add a single file to the staging area |
+| `git rm -r [file-name.txt]` | Remove a single file (or folder) |
+| `git add -A` | Add all files in all directories to the staging area |
 
 
 ### 📙 The Nitty Gitty - Status & Inspection
