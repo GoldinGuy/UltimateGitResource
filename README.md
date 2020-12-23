@@ -25,7 +25,7 @@ Git is the most popular version control system. It tracks changes you make to fi
 ## Git Commands
 
 You can run `git help` in the terminal to learn about many of these commands at any time. `git help -a` and `git help -g` list available subcommands and 
-concept guides. `git help <command>` or `git help <concept>` allows you to read about a specific subcommand or concept.
+concept guides. `git help <command>` or `git help <concept>` allow you to read about a specific subcommand or concept.
 
 `HEAD` represents your current working directory. The `HEAD` pointer can be moved to different branches, tags, or commits using `git checkout`.
 
