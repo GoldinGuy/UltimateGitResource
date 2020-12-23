@@ -8,7 +8,7 @@ Git is the most popular version control system. It tracks changes you make to fi
 ## Table of Contents
 
 - [Installing Git](#installing--git)
-- [Gitting Existing Projects](#existing--repos)
+- [Gitting Existing Projects](#gitting-existing-repos)
 - [Gitting Started - Setting Up a New Repo](#new--repo)
 - [The Nitty Gitty - Examine History & State](#history--status)
 - [Branching Out - Grow, Mark & Tweak History](#branches)
