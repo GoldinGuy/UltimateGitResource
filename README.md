@@ -22,26 +22,26 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git init` | Initialize a local Git repository |
 
 
-| Adding Files |
+#### Adding Files
 | ------- | ----------- |
 | `git add [file-name.txt]` | Add a single file to the staging area |
 | `git rm -r [file-name.txt]` | Remove a single file (or folder) |
 | `git add -A` | Add all new and changed files to the staging area |
 
 
-| Commiting |
+#### Commiting 
 | ------- | ----------- |
 | `git commit -m "[commit message]"` | Commit your changes |
 
 
-| Adding Remote Origin |
+#### Adding Remote Origin 
 | ------- | ----------- |
 | `git remote add origin git@github.com:[username]/[repository-name].git` | Add upstream repo to publish commits at (the remote repo) |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add upstream repo to publish commits at (the remote repo) |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repo's origin branch to SSH |
 
 
-| Pushing |
+#### Pushing
 | ------- | ----------- |
 | `git push -u origin master` | Push your changes to remote repository |
 
