@@ -1,6 +1,10 @@
 # UltimateGitResource
 📚 A list of helpful Git commands for the Google DSC Git Event
 
+[![Discuss On Discord][discord]][discord-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues]][issues-url]
+
 Git is the most popular version control system. It tracks changes you make to files and keeps a record of your work. It also lets you revert to earlier versions of your code if the need arises. Git also drastically improves collaboration, allowing multiple people to work in sync on the same source code. Below is a selection of the most helpful and commonly used Git commands to power up your programming!
 
 *Note - Wherever used the shorthand `Repo` means [Repository](https://en.wikipedia.org/wiki/Repository_(version_control))*
@@ -152,3 +156,12 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 #### Meta
 
 Created by [@GoldinGuy](https://github.com/GoldinGuy) for the FAU Google DSC Git Event.
+
+<!-- Markdown link & img dfn's -->
+
+[discord-url]: https://discord.gg/gKYSMeJ
+[discord]: https://img.shields.io/discord/689176425701703810
+[issues]: https://img.shields.io/github/issues/GoldinGuy/UltimateGitResource
+[issues-url]: https://github.com/GoldinGuy/UltimateGitResource/issues
+[contributors-shield]: https://img.shields.io/github/contributors/GoldinGuy/UltimateGitResource.svg?style=flat-square
+[contributors-url]: https://github.com/GoldinGuy/UltimateGitResource/graphs/contributors
