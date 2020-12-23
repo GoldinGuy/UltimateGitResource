@@ -20,11 +20,11 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
-| ------- | ----------- |
 | Adding Files |
 | `git add [file-name.txt]` | Add a single file to the staging area |
 | `git rm -r [file-name.txt]` | Remove a single file (or folder) |
 | `git add -A` | Add all new and changed files to the staging area |
+| ------- | ----------- |
 | Commiting |
 | `git commit -m "[commit message]"` | Commit your changes |
 | Adding Remote Origin |
