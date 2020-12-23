@@ -80,5 +80,8 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 
 #### 📔 Alternative Remote Origin Commands
 
+
+| Command | Description |
+| ------- | ----------- |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`| Add upstream repo to publish commits at (the remote repo) |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repo's origin branch to SSH |
