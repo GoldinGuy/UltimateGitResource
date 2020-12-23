@@ -8,14 +8,14 @@ Git is the most popular version control system. It tracks changes you make to fi
 ## Table of Contents
 
 - [Installing Git](#installing--git)
-- [Gitting Existing Projects](#gitting-existing-repos)
-- [Gitting Started - Setting Up a New Repo](#new--repo)
-- [The Nitty Gitty - Examine History & State](#history--status)
-- [Branching Out - Grow, Mark & Tweak History](#branches)
-- [Git Gud - Dealing With Merge Conflicts](#merge--stash)
-- [Git You More - Detailed Pushing, Pulling, & Remote Origin](#push--pull)
-- [Gitting Complicated - Rebase, Cherry-Pick, & Clean](#rebase--cherry)
-- [Git Resources](#resources)
+- [Gitting Existing Projects](#-gitting-existing-projects)
+- [Gitting Started - Setting Up a New Repo](#-gitting-started---setting-up-a-new-repo)
+- [The Nitty Gitty - Examine History & State](#-the-nitty-gitty---examine-history--state)
+- [Branching Out - Grow, Mark & Tweak History](#-branching-out---grow-mark--tweak-history)
+- [Git Gud - Dealing With Merge Conflicts](#-git-gud---dealing-with-merge-conflicts)
+- [Git You More - Detailed Pushing, Pulling, & Remote Origin](#-git-you-more---detailed-pushing-pulling--alternative-remote-origin)
+- [Gitting Complicated - Rebase, Cherry-Pick, & Clean](#-gitting-complicated---rebase-cherry-pick---clean)
+- [Git Resources](#-more-git-resources)
 - [Contributing](#contributing)
 
 ## Git Commands
