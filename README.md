@@ -12,7 +12,8 @@ Git is the most popular version control system. It tracks changes you make to fi
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repo using SSH |
 | `git clone https://github.com/[username]/[repository-name].git` | Create a local copy of a remote repo using HTTPS |
 
-You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) or *create a copy of the original repo that remains on your GitHub account* existing repositories.
+You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos or *create a copy of the original repo that remains on your GitHub account*.
+
 
 ### Gitting Started - Setting Up A New Repository
 
