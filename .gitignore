@@ -1,0 +1,84 @@
+### GIT_IGNORE - This is where you list files you don't want to commit, such as files containing API keys, passwords, or auto-generated files specific to your machine
+
+## EXAMPLES ##
+
+# You can prepend a pattern with a double asterisk to match directories anywhere in the repository
+**/logs
+
+# You can also use a double asterisk to match files based on their name and the name of their parent directory
+**/logs/debug.log
+
+# An asterisk is a wildcard that matches zero or more characters
+*.log
+
+# By default, patterns match files in any directory
+debug.log
+
+# If you don't append a slash, the pattern will match both files and the contents of directories with that name. In the example matches on the left, both directories and files named logs are ignored
+logs
+
+# Appending a slash indicates the pattern is a directory. The entire contents of any directory in the repository matching that name – including all of its files and subdirectories – will be ignored
+logs/
+
+# A question mark matches exactly one character
+debug?.log
+
+# Square brackets can also be used to match a single character from a specified range
+debug[0-9].log
+
+# Square brackets match a single character form the specified set
+debug[01].log
+
+# An exclamation mark can be used to match any character except one from the specified set
+debug[!01].log
+
+# Ranges can be numeric or alphabetic
+debug[a-z].log
+
+# A double asterisk matches zero or more directories
+logs/**/debug.log
+
+# Wildcards can be used in directory names as well
+logs/*day/debug.log
+
+# Patterns specifying a file in a particular directory are relative to the repository root. (You can prepend a slash if you like, but it doesn't do anything special.)
+logs/debug.log
+
+## It's a common practice to name files or directories that get ignored with a "." in front - For example:
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+## This file uses the helpful examples provided by https://www.atlassian.com/git/tutorials/saving-changes/gitignore
