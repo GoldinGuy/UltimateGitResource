@@ -29,6 +29,8 @@ concept guides. `git help <command>` or `git help <concept>` allows you to read 
 
 `HEAD` represents your current working directory. The `HEAD` pointer can be moved to different branches, tags, or commits using `git checkout`.
 
+The `gitignore` file allows you to control what gets committed and what doesn't, allowing you to keep your keys and passwords secure, and reducing the amount of bloat on the remote repo. You can learn more about it in the [.gitignore file](https://github.com/GoldinGuy/UltimateGitResource/blob/main/.gitignore) above.
+
 
 ### 📗 Gitting Existing Projects
 
