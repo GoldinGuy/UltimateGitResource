@@ -13,8 +13,8 @@ Git is the most popular version control system. It tracks changes you make to fi
 - [The Nitty Gitty - Examine History & State](#-the-nitty-gitty---examine-history--state)
 - [Branching Out - Grow, Mark & Tweak History](#-branching-out---grow-mark--tweak-history)
 - [Git Gud - Dealing With Merge Conflicts](#-git-gud---dealing-with-merge-conflicts)
-- [Git More - Detailed Pushing, Pulling, & Remote Origin](#-git-more---detailed-pushing-pulling--alternative-remote-origin)
-- [Gitting Complicated - Rebase, Cherry-Pick, & Clean](#-gitting-complicated---rebase-cherry-pick---clean)
+- [Git More - Pushing, Pulling, & Remote Origin](#-git-more---pushing-pulling--remote-origin)
+- [Gitting Complicated - The Danger Zone](#-gitting-complicated---the-danger-zone)
 - [Git Resources](#-more-git-resources)
 - [Contributing](#contributing)
 
@@ -46,7 +46,7 @@ You can also <fork>(https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git remote add origin git@github.com:<username>/<repository-name>.git` | Add upstream repo to publish commits at (the remote repo) |
 | `git push -u origin master` | Push your changes to remote repository |
 
-#### Adding Files - More Options
+#### More Options For Staging Files
 
 | Command | Description |
 | ------- | ----------- |
@@ -93,7 +93,7 @@ You can also <fork>(https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git stash clear` | Remove all stashed entries |
 
 
-### 📓 Git More - Detailed Pushing, Pulling, & Remote Origin
+### 📓 Git More - Pushing, Pulling, & Remote Origin
 
 | Command | Description |
 | ------- | ----------- |
@@ -109,16 +109,20 @@ You can also <fork>(https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git remote set-url origin ssh://git@github.com/<username>/<repository-name>.git` | Set a repo's origin branch to SSH |
 
 
-### 📔 Gitting Complicated - Rebase, Cherry-Pick, & Clean
+### 📔 Gitting Complicated - The Danger Zone
+
+*HEY! Changing yuor history may cause undesired side effects. You may lose data. Many of these commands cannot be undone. If you change your remote history, don't say I didn't warn you.*
 
 | Command | Description |
 | ------- | ----------- |
 | `git rebase` |  Reapply commits on top of another base tip |
 | `git cherry-pick` | Apply the changes introduced by some existing commits |
-| `git clean` | Remove untracked files from the working tree |
-| `git reset <commit>` | Reverts all commits after <commit>, while keeping local changes |
+| `git clean` | Removes untracked files from the working tree |
+| `git commit --amend` | Allows you to edit a previous commit that has not been pushed |
+| `git reset <commit>` | Reverts all commits after specified commit, while keeping local changes |
 | `git reset --hard <commit>` | Reverts all history and changes back to the given commit |
-| `git reset <commit>` | Reverts all commits after <commit>, while keeping local changes |
+| `git push origin <branch> --force` | Deletes all your previous commits and pushes your current one |
+
 
 ### 📖 More Git Resources
 - [Git Docs](https://git-scm.com/doc), for those who want to dive deep into the documentation
