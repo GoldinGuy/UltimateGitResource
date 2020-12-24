@@ -1,6 +1,6 @@
 # DSC Github Pages Lab
 
-This is a demo site to practice using Git and Github Pages. It is a basic portfolio/resume template. Feel free to alter/edit it to your liking. If you have experience with Web Dev, feel free to use a completely different site for the lab.
+This is a demo site to practice using Git and Github Pages. It is a basic portfolio/resume template. Feel free to alter/edit it to your liking. If you have experience with Web Dev, you can use a completely different site for the lab.
 
 Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/). Every time you refresh you should see a different one.
 
