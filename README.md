@@ -9,6 +9,8 @@ Git is the most popular [version control system](https://en.wikipedia.org/wiki/V
 
 *Note - Wherever used the shorthand `Repo` means [Repository](https://en.wikipedia.org/wiki/Repository_(version_control))*
 
+The [Docs](https://github.com/GoldinGuy/UltimateGitResource/tree/main/docs) folder of this repo contains a simple profile/resume static site built on HTML5 and [TailwindCSS](https://v1.tailwindcss.com/) to help learn about [Github pages](https://pages.github.com/). You can clone the repository and test it out yourself, or visit [this link](https://goldinguy.github.io/UltimateGitResource/) to see a live demo. For more info look at the [README](https://github.com/GoldinGuy/UltimateGitResource/blob/main/docs/README.md) for the `/docs` directory.
+
 ## Table of Contents
 
 - [Installing Git](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/set-up-git)
@@ -95,6 +97,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | ------- | ----------- |
 | `git merge <branch name>` | Merge a branch into the active branch |
 | `git merge <source branch> <target branch>` | Merge a branch into a target branch |
+| `git merge --abort` | Abort the current conflict resolution process, and attempt to reconstruct the pre-merge state |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
@@ -117,17 +120,18 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 
 ### 📔 Gitting Complicated - The Danger Zone
 
-*HEY! Changing yuor history may cause undesired side effects. You may lose data. Many of these commands cannot be undone. If you change your remote history, don't say I didn't warn you.*
+*HEY! Changing your history may cause undesired side effects. You may lose data. Many of these commands cannot be undone. If you change your remote history, don't say I didn't warn you.*
 
 | Command | Description |
 | ------- | ----------- |
-| `git rebase` |  Reapply commits on top of another base tip |
-| `git cherry-pick` | Apply the changes introduced by some existing commits |
-| `git clean` | Removes untracked files from the working tree |
+| `git rebase <branch>` |  Reapply commits on top of another base tip |
+| `git cherry-pick <commitID>` | Apply the changes introduced by some existing commits |
+| `git clean -f` | Removes and deletes untracked files from the working tree |
 | `git clean -fd` | Remove all untracked directories |
 | `git commit --amend` | Allows you to edit a previous commit that has not been pushed |
-| `git reset <commit>` | Reverts all commits after specified commit, while keeping local changes |
-| `git reset --hard <commit>` | Reverts all history and changes back to the given commit |
+| `git commit --fixup <commitID>` | Combine new changes with an existing commit under the same name |
+| `git reset <commitID>` | Reverts all commits after specified commit, while keeping local changes |
+| `git reset --hard <commitID>` | Reverts all history and changes back to the given commit |
 | `git push origin <branch> --force` | Deletes all your previous commits and pushes your current one |
 
 
@@ -146,6 +150,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 - [Git Markdown Emoji](https://github.com/ikatyang/emoji-cheat-sheet), to spice up your Git repos
 - [Article on Writing Good Commit Messages](https://chris.beams.io/posts/git-commit/), which pretty much everyone could stand to improve ;)
 - [Github Student Developer Pack](https://education.github.com/pack), seriously, if you're a student you should have this
+- [Intro to Git Rebase](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had), a great explanation of a powerful command
 
 
 ### Contributing
