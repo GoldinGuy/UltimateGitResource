@@ -11,6 +11,8 @@ Git is the most popular [version control system](https://en.wikipedia.org/wiki/V
 
 The [Docs](https://github.com/GoldinGuy/UltimateGitResource/tree/main/docs) folder of this repo contains a simple profile/resume static site built on HTML5 and [TailwindCSS](https://v1.tailwindcss.com/) to help learn about [Github pages](https://pages.github.com/). You can clone the repository and test it out yourself, or visit [this link](https://goldinguy.github.io/UltimateGitResource/) to see a live demo. For more info look at the [README](https://github.com/GoldinGuy/UltimateGitResource/blob/main/docs/README.md) for the `/docs` directory.
 
+This repo contains a powerpoint presentation explaning many of these commands that can be viewed online [here](https://docs.google.com/presentation/d/1BHa_ZxiyRRJQKaCRXTozmMhlPgkFcx-zn5esd5n-HWY/edit?usp=sharing).
+
 ## Table of Contents
 
 - [Installing Git](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/set-up-git)
