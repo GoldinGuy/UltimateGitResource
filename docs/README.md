@@ -1,6 +1,6 @@
 # DSC Github Pages Lab
 
-This is a demo site to practice using Git and Github Pages. It is a basic portfolio/resume template. Feel free to alter/edit it to your liking. If you have experience with Web Dev, feel free to use a completely different site for the lab.
+This is a demo site to practice using Git and Github Pages. It is a basic portfolio/resume template. Feel free to alter/edit it to your liking. If you have experience with Web Dev, you can use a completely different site for the lab.
 
 Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thispersondoesnotexist.com/). Every time you refresh you should see a different one.
 
@@ -11,7 +11,7 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
   - You can change the font to anything you like from [Google Fonts](https://fonts.google.com/) by replacing the name of the font in the HTML link.
   - You can use any of the [TailwindCSS](https://v1.tailwindcss.com/) classes to edit your styling.
   - The quickest way to edit the site is to `Ctrl-F` for the default person "Alex B. Carroll" and replace it with your name. Then do the same for their email "alexbcarroll@hey.com", address, linkedIn, and so on. It will likely require a basic knowledge of HTML5.
-- On [Github](https://github.com/), create a remote repository. You can do this by clicking the `+` icon, then `new repository`, then filling out the name and description. I recommend naming it `Ultimate Git CheatSheet` but you can call it whatever you want. _(If you chose to fork the repo, skip this step)_
+- On [Github](https://github.com/), create a remote repository. You can do this by clicking the `+` icon in the top-right, then `new repository`, then filling out the name and description. I recommend naming it `Ultimate Git CheatSheet` but you can call it whatever you want. _(If you chose to fork the repo, skip this step)_
 - Run the following commands in the terminal after making your changes to push your local state to the remote repo:
 
 ```
@@ -23,13 +23,13 @@ git commit -m "<name your commit>"
 
 ```
 
-Then add the remote origin
+If you forked the original repo and then cloned it, run this command to add the remote origin
 
 ```
 git remote add origin git@github.com:<username>/<repository-name>.git
 ```
 
-If you chose to clone the original repository instead of forking it, run the following additional command instead
+If you chose to clone the original repository instead of forking it, run the following command instead
 
 ```
 git remote set-url origin git@github.com:<username>/<repository-name>.git
