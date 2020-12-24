@@ -23,13 +23,13 @@ git commit -m "<name your commit>"
 
 ```
 
-Then add the remote origin
+If you forked the original repo and then cloned it, run this command to add the remote origin
 
 ```
 git remote add origin git@github.com:<username>/<repository-name>.git
 ```
 
-If you chose to clone the original repository instead of forking it, run the following additional command instead
+If you chose to clone the original repository instead of forking it, run the following command instead
 
 ```
 git remote set-url origin git@github.com:<username>/<repository-name>.git
