@@ -61,8 +61,9 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | Command | Description |
 | ------- | ----------- |
 | `git add <file-name.txt>` | Add a single file to the staging area |
-| `git rm -r <file-name.txt>` | Remove a single file (or folder) |
 | `git add -A` | Add all files in all directories to the staging area |
+| `git rm -r <file-name.txt>` | Remove a single file (or folder) |
+| `git rm -r . --cached` | Remove all files recursively from staging area |
 
 
 ### 📙 The Nitty Gitty - Examine History & State
@@ -116,6 +117,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git pull origin <branch name>` | Pull changes from remote repo |
 | `git fetch` | Checks to see if there are any changes on the remote repo (does not pull changes) | 
 | `git fetch --prune` | Fetch all remote branch refs and delete those no longer in use |
+| `git remote -v` | Shows URLs of remote repositories when listing your current remote connections |
 | `git remote add origin ssh://git@github.com/<username>/<repository-name>.git`| Add upstream repo to publish commits at (the remote repo) |
 | `git remote set-url origin ssh://git@github.com/<username>/<repository-name>.git` | Set a repo's origin branch to SSH |
 
