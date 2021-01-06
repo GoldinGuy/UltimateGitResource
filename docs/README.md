@@ -46,9 +46,9 @@ If you chose to *download* the repository, use the following:
 ```
 git remote add origin git@github.com:<username>/<repository-name>.git
 ```
-Then push!
+Then push! If you chose to *clone* the repository, add `-f` to the end of the following command *(Note: we are force pushing so you have a clean history for the second part of this lab. You should NOT force push every commit)*
 ```
-git push -u origin master
+git push -u origin master -f
 ```
 </details>
 
