@@ -6,19 +6,13 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
 
 ### Completing the Lab
 
-- Copy this repository by clicking 
-```
-CODE -> DOWNLOAD ZIP
-``` 
-at the root directory of this repo on the Github site *(downloading)*, 
 
-![image](https://user-images.githubusercontent.com/47064842/103799793-91799180-5019-11eb-99c2-37349da63f18.png)
+| Downloading | Forking | Cloning |
+| ----------- | ------- |  ------- | 
+| Click `CODE -> DOWNLOAD ZIP` at the root directory of this repo on the Github site | Click `Fork` at the root directory of this repo on the Github site | Run `git clone git@github.com:GoldinGuy/UltimateGitResource.git` |
+|![image](https://user-images.githubusercontent.com/47064842/103799793-91799180-5019-11eb-99c2-37349da63f18.png) | ![image](https://user-images.githubusercontent.com/47064842/103800713-bb7f8380-501a-11eb-9ba2-bb0d2e76d856.png) | |
 
-or using 
-```
-git clone git@github.com:GoldinGuy/UltimateGitResource.git
-``` 
-on the command line *(cloning)*.
+*(NOTE: While forking is the easiest method, you will 
 - Once you have the repo on your local machine, edit the site to your liking in a text editor (I recommend either [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)). _(You can skip this step if you don't care about customization - it's just cool to have your own personal profile site)_
   - You can change the font to anything you like from [Google Fonts](https://fonts.google.com/) by replacing the name of the font in the HTML link.
   - You can use any of the [TailwindCSS](https://v1.tailwindcss.com/) classes to edit your styling.
