@@ -17,9 +17,13 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
   <summary>If you are stuck, click here to see the necessary commands:</summary>
   
 Initialize the repo
-```git init```
+```
+git init
+```
 If you chose to clone the repository, use the following:
-```git remote set-url origin git@github.com:<username>/<repository-name>.git```
+```
+git remote set-url origin git@github.com:<username>/<repository-name>.git
+```
 Then add the files and commit!
 ```
 git add .
@@ -27,9 +31,13 @@ git add .
 git commit -m "<name your commit>"
 ```
 If you chose to download the repository, use the following:
-```git remote add origin git@github.com:<username>/<repository-name>.git```
+```
+git remote add origin git@github.com:<username>/<repository-name>.git
+```
 Then push!
-```git push -u origin master```
+```
+git push -u origin master
+```
 </details>
 
 - If you navigate to `https://github.com:<username>/<repository-name>`, you should now see your repo in all its glory
