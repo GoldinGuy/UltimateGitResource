@@ -129,6 +129,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | Command | Description |
 | ------- | ----------- |
 | `git rebase <branch>` |  Reapply commits on top of another base tip |
+| `git rebase -i <commitID>` | Reapply all commits from <commitID forward |
 | `git cherry-pick <commitID>` | Apply the changes introduced by some existing commits |
 | `git clean -f` | Removes and deletes untracked files from the working tree |
 | `git clean -fd` | Remove all untracked directories |
