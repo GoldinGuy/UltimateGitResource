@@ -49,6 +49,8 @@ git push -u origin master
   - Click save, and wait a minute for your site to load. It should look similar to the image below when complete.
 - You're done! Now you have your own personal profile/resume site, hosted for free on Github. You learned how to use the most common commands, and hopefully have a basic understanding of how git works.
 
+![image](https://user-images.githubusercontent.com/47064842/103049165-f2f02980-455e-11eb-85c1-ac598508f433.png)
+
 ### Data Breach - Bonus Challenge! 
 In the index.html file there is a `DUMMY_API_KEY`. 
 By completing this lab as normal, we are simulating an API key (essentially, a password) being accidentally exposed *(Something I have done many a time)*.
@@ -63,7 +65,5 @@ For this bonus challenge, you must quickly remove all traces from this credentia
 </details>
 
 Notably, if this was a real data breach and you already pushed the API key, it's too late. You should do the above, but I also recommend invaldiating and changing the API key to be safe. Github has an article about it [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/removing-sensitive-data-from-a-repository).
-
-![image](https://user-images.githubusercontent.com/47064842/103049165-f2f02980-455e-11eb-85c1-ac598508f433.png)
 
 This template is based on an open-source portfolio site found [here](https://github.com/mohusman360/mohusman360.github.io)
