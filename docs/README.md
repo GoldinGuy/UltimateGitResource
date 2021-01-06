@@ -6,11 +6,11 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
 
 ### Completing the Lab
 
-
+Choose one of the following options to copy this repository
 | Downloading | Forking | Cloning |
 | ----------- | ------- |  ------- | 
 | Click `CODE -> DOWNLOAD ZIP` at the root directory of this repo on the Github site | Click `Fork` at the root directory of this repo on the Github site | Run `git clone git@github.com:GoldinGuy/UltimateGitResource.git` |
-|![image](https://user-images.githubusercontent.com/47064842/103799793-91799180-5019-11eb-99c2-37349da63f18.png) | ![image](https://user-images.githubusercontent.com/47064842/103800713-bb7f8380-501a-11eb-9ba2-bb0d2e76d856.png) | |
+|![image](https://user-images.githubusercontent.com/47064842/103799793-91799180-5019-11eb-99c2-37349da63f18.png) | ![image](https://user-images.githubusercontent.com/47064842/103800713-bb7f8380-501a-11eb-9ba2-bb0d2e76d856.png) | ![image](https://user-images.githubusercontent.com/47064842/103801899-5af14600-501c-11eb-8eca-86ea5975ca38.png)|
 
 *(NOTE: While forking is the easiest method, you will 
 - Once you have the repo on your local machine, edit the site to your liking in a text editor (I recommend either [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)). _(You can skip this step if you don't care about customization - it's just cool to have your own personal profile site)_
