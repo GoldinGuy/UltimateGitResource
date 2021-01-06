@@ -6,7 +6,7 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
 
 ### Completing the Lab
 
-- Copy this repository using `git clone git@github.com:GoldinGuy/UltimateGitResource.git` on the command line.
+- Copy this repository using `git clone git@github.com:GoldinGuy/UltimateGitResource.git` on the command line, or by clicking `CODE -> DOWNLOAD ZIP` on the Github website.
 - Once you have the repo on your local machine, edit the site to your liking in a text editor (I recommend either [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)). _(You can skip this step if you don't care about customization - it's just cool to have your own personal profile site)_
   - You can change the font to anything you like from [Google Fonts](https://fonts.google.com/) by replacing the name of the font in the HTML link.
   - You can use any of the [TailwindCSS](https://v1.tailwindcss.com/) classes to edit your styling.
@@ -15,16 +15,26 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
 - Run Git commands in the terminal to push your local state to the remote repo.
  <details>
   <summary>If you are stuck, click here to see the necessary commands:</summary>
-  
+Initialize the repo
 ```
 git init
-
+```
+If you chose to clone the repository, use the following:
+```
+git remote set-url origin git@github.com:<username>/<repository-name>.git
+```
+Then add the files and commit!
+```
 git add .
 
 git commit -m "<name your commit>"
-
-git remote set-url origin git@github.com:<username>/<repository-name>.git
-
+```
+If you chose to download the repository, use the following:
+```
+git remote add origin git@github.com:<username>/<repository-name>.git
+```
+Then push!
+```
 git push -u origin master
 ```
 </details>
