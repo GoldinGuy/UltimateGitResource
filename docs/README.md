@@ -10,7 +10,11 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
 ```
 CODE -> DOWNLOAD ZIP
 ``` 
-on the Github website *(downloading)*, or using 
+at the root directory of this repo on the Github site *(downloading)*, 
+
+![image](https://user-images.githubusercontent.com/47064842/103799793-91799180-5019-11eb-99c2-37349da63f18.png)
+
+or using 
 ```
 git clone git@github.com:GoldinGuy/UltimateGitResource.git
 ``` 
