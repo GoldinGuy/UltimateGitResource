@@ -6,21 +6,21 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
 
 ### Completing the Lab
 
-- Copy this repository using 
-```
-git clone git@github.com:GoldinGuy/UltimateGitResource.git
-``` 
-on the command line *(cloning)*, or by clicking 
+- Copy this repository by clicking 
 ```
 CODE -> DOWNLOAD ZIP
 ``` 
-on the Github website *(downloading)*.
+on the Github website *(downloading)*, or using 
+```
+git clone git@github.com:GoldinGuy/UltimateGitResource.git
+``` 
+on the command line *(cloning)*.
 - Once you have the repo on your local machine, edit the site to your liking in a text editor (I recommend either [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)). _(You can skip this step if you don't care about customization - it's just cool to have your own personal profile site)_
   - You can change the font to anything you like from [Google Fonts](https://fonts.google.com/) by replacing the name of the font in the HTML link.
   - You can use any of the [TailwindCSS](https://v1.tailwindcss.com/) classes to edit your styling.
   - The quickest way to edit the site is to `Ctrl-F` for the default person "Alex B. Carroll" and replace it with your name. Then do the same for their email "alexbcarroll@hey.com", address, linkedIn, and so on. It will likely require a basic knowledge of HTML5.
 - On [Github](https://github.com/), create a remote repository. You can do this by clicking the `+` icon in the top-right, then `new repository`, then filling out the name and description. I recommend naming it `Ultimate Git CheatSheet` but you can call it whatever you want.
-- Run Git commands in the terminal to push your local state to the remote repo.
+- Run Git commands in the terminal to push your local state to the remote repo. *(If you cloned the repo, make sure you made at least one change to the site)*.
  <details>
   <summary>If you are stuck, click here to see the necessary commands:</summary>
   
