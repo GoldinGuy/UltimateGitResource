@@ -33,9 +33,9 @@ Run Git commands in the terminal to push your local state to the remote repo.
 
 | Forking | Downloading | Cloning |
 | ------- | ------- | ------- | 
-| `git init` | Same as Forking |`git remote set-url origin git@github.com:<username>/<repository-name>.git` |
-| `git add .` | Same as Forking | Same as Forking |
-| `git commit -m "<name your commit>"` | Same as Forking | Same as Forking |
+| `git init` | `git init` | `git remote set-url origin git@github.com:<username>/<repository-name>.git` |
+| `git add .` | `git add .` | `git add .` |
+| `git commit -m "<name your commit>"` | `git commit -m "<name your commit>"` | `git commit -m "<name your commit>"` | 
 | `git push` | `git remote add origin git@github.com:<username>/<repository-name>.git` | `git push` |
 | `git log` | `git push -u origin master` | `git log` |
 
