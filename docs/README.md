@@ -12,7 +12,7 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
   - You can use any of the [TailwindCSS](https://v1.tailwindcss.com/) classes to edit your styling.
   - The quickest way to edit the site is to `Ctrl-F` for the default person "Alex B. Carroll" and replace it with your name. Then do the same for their email "alexbcarroll@hey.com", address, linkedIn, and so on. It will likely require a basic knowledge of HTML5.
 - On [Github](https://github.com/), create a remote repository. You can do this by clicking the `+` icon in the top-right, then `new repository`, then filling out the name and description. I recommend naming it `Ultimate Git CheatSheet` but you can call it whatever you want.
-- Run Git commands in your terminal after making your changes to push your local state to the remote repo
+- Run Git commands in the terminal to push your local state to the remote repo.
  <details>
   <summary>If you are stuck, click here to see the necessary commands:</summary>
   
