@@ -6,14 +6,16 @@ Profile photos are randomly pulled from [ThisPersonDoesNotExist](https://thisper
 
 ### Completing the Lab
 
-- Copy this repository using either `git clone git@github.com:GoldinGuy/UltimateGitResource.git` on the command line or the built-in [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) tool on GitHub.
-- Once you have the repo on your local machine _(if you chose to fork it, you'll need to clone it from your fork first)_, edit the site to your liking in a text editor (I recommend either [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)). _(You can skip this step if you don't care about customization - it's just cool to have your own personal profile site)_
+- Copy this repository using `git clone git@github.com:GoldinGuy/UltimateGitResource.git` on the command line.
+- Once you have the repo on your local machine, edit the site to your liking in a text editor (I recommend either [VSCode](https://code.visualstudio.com/) or [Atom](https://atom.io/)). _(You can skip this step if you don't care about customization - it's just cool to have your own personal profile site)_
   - You can change the font to anything you like from [Google Fonts](https://fonts.google.com/) by replacing the name of the font in the HTML link.
   - You can use any of the [TailwindCSS](https://v1.tailwindcss.com/) classes to edit your styling.
   - The quickest way to edit the site is to `Ctrl-F` for the default person "Alex B. Carroll" and replace it with your name. Then do the same for their email "alexbcarroll@hey.com", address, linkedIn, and so on. It will likely require a basic knowledge of HTML5.
-- On [Github](https://github.com/), create a remote repository. You can do this by clicking the `+` icon in the top-right, then `new repository`, then filling out the name and description. I recommend naming it `Ultimate Git CheatSheet` but you can call it whatever you want. _(If you chose to fork the repo, skip this step)_
-- Run the following commands in the terminal after making your changes to push your local state to the remote repo:
-
+- On [Github](https://github.com/), create a remote repository. You can do this by clicking the `+` icon in the top-right, then `new repository`, then filling out the name and description. I recommend naming it `Ultimate Git CheatSheet` but you can call it whatever you want.
+- Run Git commands in your terminal after making your changes to push your local state to the remote repo
+ <details>
+  <summary>If you are stuck, click here to see the necessary commands:</summary>
+  
 ```
 git init
 
@@ -21,25 +23,11 @@ git add .
 
 git commit -m "<name your commit>"
 
-```
-
-If you forked the original repo and then cloned it, run this command to add the remote origin
-
-```
-git remote add origin git@github.com:<username>/<repository-name>.git
-```
-
-If you chose to clone the original repository instead of forking it, run the following command instead
-
-```
 git remote set-url origin git@github.com:<username>/<repository-name>.git
-```
 
-Finally, push the repo
-
-```
 git push -u origin master
 ```
+</details>
 
 - If you navigate to `https://github.com:<username>/<repository-name>`, you should now see your repo in all its glory
 - We are now going to setup `Github Pages` to host our demo site for free
