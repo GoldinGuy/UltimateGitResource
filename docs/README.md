@@ -56,7 +56,11 @@ By completing this lab as normal, we are simulating an API key (essentially, a p
 For this bonus challenge, you must quickly remove all traces from this credential from your history. Requirements are as follows:
  - You must include the `DUMMY_API_KEY` in the initial commit
  - You must use Git commands to remove the API Key from your history. There are many ways to accomplish this. 
-If you are stuck, click here for a hint: >!*(Use Rebase, Force Push, Commit --amend, or git filter-branch)!<
+ <details>
+  <summary>If you are stuck, click here for a hint:</summary>
+  
+```*Use Rebase, Force Push, Commit --amend, or git filter-branch*```
+</details>
 
 Notably, if this was a real data breach and you already pushed the API key, it's too late. You should do the above, but I also recommend invaldiating and changing the API key to be safe. Github has an article about it [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/removing-sensitive-data-from-a-repository).
 
