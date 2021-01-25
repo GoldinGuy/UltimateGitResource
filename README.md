@@ -71,6 +71,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | Command | Description |
 | ------- | ----------- |
 | `git status` | See details about the current branch |
+| `git show` | Shows changes in committed files |
 | `git log` | View changes in commit history |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
@@ -150,6 +151,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 - [GitReady](http://gitready.com/), lets you learn git one commit at a time
 - [Git From the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/), gives you a better understanding of the powerful system
 - [Git, the Simple Guide](https://rogerdudler.github.io/git-guide/), as stated, with no deep knowledge required
+- [Git Explained (Not just commands)](https://towardsdatascience.com/git-help-all-2d0bb0c31483), a brief guide including more than commands
 - [Git-It](https://github.com/jlord/git-it-electron#what-to-install), an app that teaches you git via challenges in the terminal
 - [Interactive Way to Learn Git Branching](https://learngitbranching.js.org/), for an enjoyable way to tackle an important concept
 - [Git Markdown Emoji](https://github.com/ikatyang/emoji-cheat-sheet), to spice up your Git repos
