@@ -138,6 +138,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 | `git commit --fixup <commitID>` | Combine new changes with an existing commit under the same name |
 | `git reset <commitID>` | Reverts all commits after specified commit, while keeping local changes |
 | `git reset --hard <commitID>` | Reverts all history and changes back to the given commit |
+| `git reset HEAD~1` | Revert 1 commit (while keeping current local state) |
 | `git push origin <branch> --force` | Deletes all your previous commits and pushes your current one |
 
 
