@@ -5,11 +5,11 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues]][issues-url]
 
+[**Watch a recording of the All About Git Presentation Here!**](https://www.youtube.com/watch?v=mqhDMv6nIVI)
+
 Git is the most popular [version control system](https://en.wikipedia.org/wiki/Version_control). It tracks changes you make to files and keeps a record of your work. It also lets you revert to earlier versions of your code if the need arises. Git also drastically improves collaboration, allowing multiple people to work in sync on the same source code. Below is a selection of the most helpful and commonly used Git commands to power up your programming!
 
 *Note - Wherever used the shorthand `Repo` means [Repository](https://en.wikipedia.org/wiki/Repository_(version_control))*
-
-[**Watch a recording of the All About Git Presentation Here!**](https://www.youtube.com/watch?v=mqhDMv6nIVI)
 
 The [Docs](https://github.com/GoldinGuy/UltimateGitResource/tree/main/docs) folder of this repo contains a simple profile/resume static site built on HTML5 and [TailwindCSS](https://v1.tailwindcss.com/) to help learn about [Github pages](https://pages.github.com/). You can clone the repository and test it out yourself, or visit [this link](https://goldinguy.github.io/UltimateGitResource/) to see a live demo. For more info look at the [README](https://github.com/GoldinGuy/UltimateGitResource/blob/main/docs/README.md) for the `/docs` directory.
 
