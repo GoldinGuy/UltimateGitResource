@@ -5,7 +5,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues]][issues-url]
 
-[**Watch a recording of the All About Git resentation here!**](https://www.youtube.com/watch?v=mqhDMv6nIVI)
+[**Watch a recording of the All About Git presentation here!**](https://www.youtube.com/watch?v=mqhDMv6nIVI)
 
 Git is the most popular [version control system](https://en.wikipedia.org/wiki/Version_control). It tracks changes you make to files and keeps a record of your work. It also lets you revert to earlier versions of your code if the need arises. Git also drastically improves collaboration, allowing multiple people to work in sync on the same source code. Below is a selection of the most helpful and commonly used Git commands to power up your programming!
 
