@@ -7,7 +7,7 @@
 
 [**Watch a recording of the All About Git presentation here!**](https://www.youtube.com/watch?v=mqhDMv6nIVI)
 
-Git is the most popular [version control system](https://en.wikipedia.org/wiki/Version_control). It tracks changes you make to files and keeps a record of your work. It also lets you revert to earlier versions of your code if the need arises. Git also drastically improves collaboration, allowing multiple people to work in sync on the same source code. Below is a selection of the most helpful and commonly used Git commands to power up your programming!
+Git is the most popular [version control system](https://en.wikipedia.org/wiki/Version_control). It tracks changes you make to files and keeps a record of your work. It also lets you revert to earlier versions of your code if the need arises. Git drastically improves collaboration, allowing multiple people to work in sync on the same source code. Below is a selection of the most helpful and commonly used Git commands to power up your programming!
 
 *Note - Wherever used the shorthand `Repo` means [Repository](https://en.wikipedia.org/wiki/Repository_(version_control))*
 
@@ -148,7 +148,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 - [Git Docs](https://git-scm.com/doc), for those who want to dive deep into the documentation
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/), for those who want a quick overview
 - [Visual Git CheatSheet](https://ndpsoftware.com/git-cheatsheet.html), for those who are visual learners
-- [Official Printable PDF CheatSheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf), for those who need the physcial copy
+- [Official Printable PDF CheatSheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf), for those who need the physical copy
 - [Visualize Git Under the Hood](https://git-school.github.io/visualizing-git/), allows you to explore exactly how commands affect repo structure
 - [Stanford GitMagic](http://www-cs-students.stanford.edu/~blynn/gitmagic/), a plain but detailed quide to git
 - [GitReady](http://gitready.com/), lets you learn git one commit at a time
