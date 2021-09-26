@@ -1,5 +1,5 @@
 # UltimateGitResource
-📚 A list of helpful Git commands for the Google DSC Git Event
+📚 A list of helpful Git commands for the Google DSC Git Event & Hackapalooza
 
 [![Discuss On Discord][discord]][discord-url]
 [![Contributors][contributors-shield]][contributors-url]
