@@ -161,6 +161,7 @@ You can also [fork](https://github.com/GoldinGuy/UltimateGitResource/fork) repos
 - [Article on Writing Good Commit Messages](https://chris.beams.io/posts/git-commit/), which pretty much everyone could stand to improve ;)
 - [Github Student Developer Pack](https://education.github.com/pack), seriously, if you're a student you should have this
 - [Intro to Git Rebase](https://dev.to/maxwell_dev/the-git-rebase-introduction-i-wish-id-had), a great explanation of a powerful command
+- [Git Commands](https://gitcommands.si/), a searchable list of 233 Git commands explained in plain English, for when you just need the right command
 
 
 ### Contributing
